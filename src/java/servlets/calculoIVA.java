@@ -53,10 +53,10 @@ public class calculoIVA extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Calculo IVA</h1>");
-            out.println("<h2>Nombre del empleado" + nomemple + "</h1>");
-            out.println("<h2>Salario bruto" + ImporteSinIva + "</h1>");
-            out.println("<h2>Retencion aplicado" + tipoIva + "</h1>");
-            out.println("<h2>Salario neto" + precioConIva + "</h1>");
+            out.println("<h2>Nombre del empleado " + nomemple + "</h1>");
+            out.println("<h2>Salario bruto " + ImporteSinIva + "</h1>");
+            out.println("<h2>Retencion aplicado " + tipoIva + "</h1>");
+            out.println("<h2>Salario neto " + precioConIva + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
